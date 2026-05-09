@@ -1,0 +1,20 @@
+{
+  "name": "02-nodejs",
+  "version": "1.0.0",
+  "description": "Learning Nodejs & Mern ",
+  "license": "ISC",
+  "author": "Anuj Patel",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "cb": "nodemon callback.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "lodash": "^4.18.1",
+    "nodemon": "^3.1.14"
+  }
+}
