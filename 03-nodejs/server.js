@@ -34,3 +34,4 @@ app.use("/menu", menuRoutes)
 app.listen(3000, () => {
     console.log("Server is now running at 3000")
 })
+
